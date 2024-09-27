@@ -1,0 +1,15 @@
+@charset "utf-8";
+.games{
+    height: 700px;
+}
+.games > .inner{
+    height: 100%;
+    background-color: #fff;
+}
+.games > .inner > .seven-days-to-die-logo{
+    width: 100%;
+    max-width: 600px ;
+}
+.games > .inner > .seven-days-to-die-logo > img{
+    width: 100%;
+}

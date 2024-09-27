@@ -1,0 +1,13 @@
+@charset "utf-8";
+.visual{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.visual > .inner{
+    background-color: #fff;
+}
+.visual > .inner > .visual-banner-slide{
+    height: 650px;
+}
+.visual > .inner > .visual-banner-slide > .swiper{
+    height: 100%;
+}

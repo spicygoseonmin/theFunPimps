@@ -1,0 +1,31 @@
+@charset "utf-8";
+.header{
+    padding: 10px;
+    background-color: aqua;
+    width: 100%;
+}
+.header > .inner{
+    display: flex;
+    align-items: flex-end;
+    max-height: 183px;
+}
+/* 헤더 로고 */
+.header > .inner > .theFunPimps-logo{
+    width: 100%;
+    max-width: 512px ;
+    min-width: 200px;
+}
+.header > .inner > .theFunPimps-logo > img{
+    width: 100%;
+}
+/* 헤더 메뉴 */
+.menu-list{
+    display: flex;
+    height: 24px;
+}
+.menu-list > li{
+    border-left: 1px solid #333;
+    padding: 0 10px;
+    background-color: azure;
+    transform: translateY(-15px);
+}
